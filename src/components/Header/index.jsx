@@ -11,9 +11,6 @@ const Header = () => {
                     <HoverLink>
                         <ItensList>Home</ItensList>
                     </HoverLink>
-                    <HoverLink>
-                        <ItensList>Para Empresas</ItensList>
-                    </HoverLink>
                 </ListMenu>
                 <ButtonPrimary onClick={() => alert("Entrar")}>ENTRAR</ButtonPrimary>
                 <ButtonPrimary onClick={() => alert("Cadastrar")}>CADASTRAR</ButtonPrimary>

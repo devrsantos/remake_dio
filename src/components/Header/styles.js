@@ -1,17 +1,18 @@
 import styled from "styled-components";
 
 const ContaianerHeader = styled.div`
-    background-color: rgb(21, 21, 21);
-    padding: 8px 16px;
-    width: 97.5%;
-    height: 43.391px;
+    background-color: #151515;
+    margin-top: 6px;
+    width: 100%;
+    height: 47px;
 
     display: flex;
     flex-direction: row;
 `
 const ImageLogo = styled.img`
-    width: 110px;
-    height: 100%;
+    width: 63px;
+    height: 25px;
+    margin: 8px 0px 14px 60px;
 `
 const ListMenu = styled.ul`
     height: 22px;
@@ -25,10 +26,13 @@ const ListMenu = styled.ul`
 `;
 
 const ItensList = styled.li`
-    padding-left: 10px;
-    font-size: 16px;
+    font-size: 18px;
     font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
     list-style: none;
+    color: #FFFFFF;
 
     &:focus-visible {
         outline: auto;
